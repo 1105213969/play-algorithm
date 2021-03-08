@@ -56,9 +56,9 @@ public class NQueens {
         return stringList;
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
     	NQueens queens = new NQueens();
-        List<List<String>> resList = queens.nQueens(8);
+        List<List<String>> resList = queens.nQueens(4);
         for (List<String> solution : resList) {
             solution.forEach(a -> System.out.println(a));
             System.out.println("----------------------");
