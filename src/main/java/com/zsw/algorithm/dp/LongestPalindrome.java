@@ -25,12 +25,12 @@ public class LongestPalindrome {
                     if (j - i < 3) {
                         dp[i][j] = true;
                     } else {
-                        dp[i][j] = dp[i+1][j-1];
+                        dp[i][j] = dp[i + 1][j - 1];
                     }
                 }
 
 
-                if (dp[i][j] && j - i + 1> maxLen) {
+                if (dp[i][j] && j - i + 1 > maxLen) {
                     maxLen = j - i + 1;
                     //更新最大子串的初始位置
                     begin = i;
