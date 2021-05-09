@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PlayAlgorithmApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PlayAlgorithmApplication.class, args);
-	}
-        
-        @GetMapping("/hello")
-        public String hello() {
-            return "Hello, world!";
-        }
+    public static void main(String[] args) {
+        SpringApplication.run(PlayAlgorithmApplication.class, args);
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello, world!";
+    }
 
 }

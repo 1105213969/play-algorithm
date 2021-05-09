@@ -4,6 +4,8 @@ import com.zsw.algorithm.sort.BubbleSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 一些测试代码
@@ -19,9 +21,23 @@ public class AppTest {
 
     @Test
     public void testSort() {
-        BubbleSort bubbleSort = new BubbleSort();
-        int[] arr = new int[]{1, 2, -7, 657, 0};
-        bubbleSort.bubbleSort(arr);
-        Arrays.stream(arr).forEach(a -> System.out.print(a + " "));
+        System.out.println(firstUniqChar("loveleetcode"));
     }
+    public static int firstUniqChar(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for(char a : s.toCharArray()) {
+            map.put(a, map.getOrDefault(a, 0) + 1);
+        }
+
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < s.length(); ++i) {
+            if (map.get(s.charAt(i)) == 1) {
+                if (min > i) {
+                    min = i;
+                }
+            }
+        }
+        return min;
+    }
+
 }
