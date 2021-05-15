@@ -32,8 +32,8 @@ public class Permute {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3};
         List<List<Integer>> resList = new Permute().permute(arr);
-        resList.stream().forEach(a -> {
-            a.stream().forEach(b -> System.out.print(b + " "));
+        resList.forEach(a -> {
+            a.forEach(b -> System.out.print(b + " "));
             System.out.println();
         });
     }
