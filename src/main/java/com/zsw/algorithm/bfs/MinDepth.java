@@ -1,6 +1,6 @@
 package com.zsw.algorithm.bfs;
 
-import com.zsw.algorithm.TreeNode;
+import com.zsw.TreeNode;
 
 import java.util.Deque;
 import java.util.LinkedList;

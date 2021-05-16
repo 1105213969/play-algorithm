@@ -1,4 +1,4 @@
-package com.zsw.algorithm.tree;
+package com.zsw;
 
 /**
  * Definition for a binary tree node.

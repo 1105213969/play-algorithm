@@ -1,5 +1,7 @@
 package com.zsw.algorithm.list;
 
+import com.zsw.ListNode;
+
 /**
  * 翻转链表
  */

@@ -1,4 +1,4 @@
-package com.zsw.algorithm.list;
+package com.zsw;
 
 public class ListNode {
     public int val;
