@@ -1,7 +1,5 @@
 package com.zsw.algorithm.list;
 
-import com.zsw.algorithm.ListNode;
-
 /**
  *
  * 链表排序

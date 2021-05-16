@@ -1,6 +1,5 @@
 package com.zsw.algorithm.list;
 
-import com.zsw.algorithm.ListNode;
 
 /**
  * 合并有序链表

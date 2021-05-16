@@ -1,6 +1,5 @@
 package com.zsw.algorithm.tree;
 
-import com.zsw.algorithm.TreeNode;
 
 /**
  * 二叉树的最近公共祖先
