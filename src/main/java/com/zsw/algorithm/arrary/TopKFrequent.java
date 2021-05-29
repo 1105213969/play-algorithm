@@ -39,6 +39,9 @@ public class TopKFrequent {
 
     public static void main(String[] args) {
         int[] arr = {5, 3, 1, 1, 1, 3, 73, 1};
-        new TopKFrequent().topKFrequent(arr, 2);
+        int[] res = new TopKFrequent().topKFrequent(arr, 2);
+        for (int tmp : res) {
+            System.out.print(tmp + " ");
+        }
     }
 }
